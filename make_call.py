@@ -6,7 +6,7 @@ from twilio.rest import Client
 account_sid = 'ACf737a865f5030947224ce86063f4806b'
 auth_token = 'bebc51d8e5fc8678825df24190968d82'
 
-api_url_base = 'http://localhost:8000/sendMessage'
+api_url_base = 'http://grupo-cinco.herokuapp.com/sendMessage'
 
 client = Client(account_sid, auth_token)
 
